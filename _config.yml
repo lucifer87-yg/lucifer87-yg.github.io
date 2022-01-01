@@ -1,0 +1,32 @@
+title: Yash Gorasiya
+description: "Aspiring security analyst."
+author:
+  name: "r3v3Ncl4W"
+  email: "yashgorasiya105@gmail.com"
+  url: "https://www.linkedin.com/in/yash-gorasiya/"
+
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+owner : "Yash Gorasiya"
+year : "2022"

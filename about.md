@@ -5,7 +5,7 @@ title: About
 
 ## Hi there!
 
-![](/assets/about3.png)
+![](/assets/about1.png)
 
 My name is **Yash Gorasiya**.
 
